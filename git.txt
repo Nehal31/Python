@@ -1,0 +1,28 @@
+Concept of got 
+keep track of history
+Takes snapshort
+branches creation
+
+Basic Command
+
+$git init   // initialize Local Git Repository
+$git add<file>		//Add files to index
+$git ststus  		//check status of working tree 
+$git commit 		// commit changes 
+$git push 		// Push to remote Changes
+$git pull 		// Pull Latest 
+
+
+$cd 			// Change the directory
+$touch 			// Creating the file
+
+Installion
+
+Windows
+
+http//git-scm.com/dawnload/win
+
+
+
+
+

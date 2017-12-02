@@ -11,10 +11,14 @@ $git ststus  		//check status of working tree
 $git commit 		// commit changes 
 $git push 		// Push to remote Changes
 $git pull 		// Pull Latest 
-
+$git rm			// remove the file
+$git branch <br_name>	// Create new branch 
+$git checkout <br_naem>	// Change to new brench
+$git merge <br_name>	// merge is the irectory with master directory
 
 $cd 			// Change the directory
 $touch 			// Creating the file
+$mkdir 			// Making new directory
 
 Installion
 

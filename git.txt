@@ -16,6 +16,10 @@ $git branch <br_name>	// Create new branch
 $git checkout <br_naem>	// Change to new brench
 $git merge <br_name>	// merge is the irectory with master directory
 
+$git remote add origin <url of github repository > 	//Add the directory to github repository
+$git push -u origin <directory name(master)>	  	// Upload the repository
+
+
 $cd 			// Change the directory
 $touch 			// Creating the file
 $mkdir 			// Making new directory

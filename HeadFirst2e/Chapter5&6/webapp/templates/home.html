@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<form action="/match" method='POST'>
+	<table name="search_table">
+		<tr>
+			<td>Enter Phrases </td>
+			<td><input type = "Text" size ="40" name="phrase" required="True" /></td>
+		</tr>
+		<tr>
+			<td>Enter letters </td>
+			<td><input type = "Text" size ="40" name ="letters" value="aeiou" /></td>
+		</tr>
+		<tr>
+			<td><input type = "submit" size ="40" name ="submit" value="GO -> "/></td>
+		</tr>
+	
+	</table>
+</form>
+
+
+{% endblock %}

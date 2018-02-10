@@ -1,0 +1,34 @@
+class  -Python class let you share yor behaviour and states
+--------
+Declaration -
+	class MyClass :
+		pass  # It is nothing but a empty statement
+
+class follaw the CamelCase naming convestion to distingist it from function calling
+
+objects share the methods but maintain its ont attributes
+
+object Instantiation :-
+	a = MyClass() # paranthesis is used to call the class constructure 
+
+	interpreter interpretate it as 
+		MyClass.__init__(a)
+
+Object class is base class 
+
+behaviours(methods) of class :- 
+	dunders 
+	def __init__(self,atr1:type1,atr2:type2):
+		# it is same as the function defination just 'self' makes the difference and make it method of class 
+		# dunners are the method of Object class which is inherted by all class and can be override for own purpose 
+		# it is the constructor of the class which help us to instantiate the class object
+		pass 
+
+	def __repr__(self)->str:
+		# it is use to override of representation object by the interpreter
+		# it has no parameter and return type is string
+		# it control the interpreter to display what we want to display
+		return(str(self.val))
+
+	
+

@@ -1,0 +1,38 @@
+modules + function == Standers library
+
+import method is used to import the modules
+sys :- import sys
+	sys.platform = 'win32'
+	sys.environ = all the environment variable
+
+os :- import os
+	The OS module in Python provides a way of using operating system dependent functionality.
+	os.mkdir('name')
+	os.rmdir('name')
+
+datetime :- from datetime import datetime
+	datetime.today() // return the today current time
+	datetime.today().minut //return the minutes of current time
+
+
+datetiem :- import datetime
+	datetime.date.today()	//return the todays date
+	datetime.date.today().month // return month
+
+time :- import time 
+	time.strftime("%H:%M")
+
+
+What happens when we import any module in python :-
+	import module_name 
+	from module_name import submodule_name/class
+
+	First python interpreter search in the current working directory(folder) if module exist there interpreter fetches it otherwise
+	Interpreter search it in interpreter's site-pakages locations(These are the directories that contain any third-party Python
+modules you may have installed) it the module exist there interpreter fetch it otherwise
+	Interpreter search it in standard library locations it the module exist there interpreter fetch it otherwise 
+	Print  the error msg 
+	
+How 
+
+Installtion of

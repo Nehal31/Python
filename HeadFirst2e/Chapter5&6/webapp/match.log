@@ -1,0 +1,6 @@
+ImmutableMultiDict([('phrase', 'nojanodfjaoena'), ('letters', 'aeiou'), ('submit', 'GO -> ')])|127.0.0.1|Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36|{'o', 'e', 'a'}
+ImmutableMultiDict([('phrase', 'jkncnaocnaojca'), ('letters', 'aeiou'), ('submit', 'GO -> ')])|127.0.0.1|Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0|{'o', 'a'}
+ImmutableMultiDict([('phrase', 'kln[jph9byurxe'), ('letters', 'aeiou'), ('submit', 'GO -> ')])|127.0.0.1|Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko|{'u', 'e'}
+ImmutableMultiDict([('phrase', 'nojanodfjaoena lkjkp za'), ('letters', 'aeiou'), ('submit', 'GO -> ')])|127.0.0.1|Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36|{'a', 'o', 'e'}
+ImmutableMultiDict([('phrase', 'bhbh'), ('letters', 'aeiou'), ('submit', 'GO -> ')])|127.0.0.1|Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36|set()
+ImmutableMultiDict([('letters', 'aeiou'), ('submit', 'GO -> '), ('phrase', 'This is nehal Kumar')])|127.0.0.1|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:57.0) Gecko/20100101 Firefox/57.0|{'e', 'a', 'u', 'i'}

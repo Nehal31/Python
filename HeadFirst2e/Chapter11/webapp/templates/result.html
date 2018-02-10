@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h2>{{ header }}</h2>
+<table name="result_table">
+	<tr>
+		<td>Entered Phrase </td>
+		<td>{{ phrase }}</td>
+	</tr>
+	<tr>
+		<td>Enter letters </td>
+		<td>{{ letters }}</td>
+	</tr>	
+</table>
+<p>matched lcharacter of the Phrase "{{ phrase }}" and "{{ letters }}" are {{ result }}</p>
+
+
+
+
+{% endblock %}

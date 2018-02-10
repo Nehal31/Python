@@ -1,0 +1,43 @@
+Data structure of python:-
+	Number	- long interger 
+	String	- immutable array of characters  
+	List	- mutable orderd hetrogeneous collection of object-[v]  	
+	Touple	- immutable ordered hetrogeneous collection of object-(v)
+	Set	- mutable unordered hetrogenous unique collection of object-{k:v}	
+	Dictionary- mutable unordered collecvtion of key : value pair-{v}
+
+Everyting is an object in python and any object can be assigned to any variable
+
+Sequential data structure - strings/ byte sequences/ byte arrays/ lists/ tuples/ range objects
+
+	The items or elements of strings, lists and tuples are ordered in a defined sequence
+	The elements can be accessed via indices
+
+String -declaration -str_var = "anything within the double quote"
+	empty string is represented as >>> ''
+	operations - slicing str_var[start: stop: step]
+
+List - declaration - list_var = list() or []
+	empty list is represented as >>> []
+	operations - list_var.append(num)/remove(num)/pop(index)/extend(index)/insert(index,value)
+	itteration - list_var[start:stop:step] 
+
+Dictionary - declaration dict_name = dist() or dist_name = {}
+	empty dict >>>{} 
+	students = {roll_no : Name, 20: 'Goli'}
+	operation - len(students)/ del(student[20])/ students.items()/ s.values()/ s.keys()
+	it is a non sequential data structure so it doesn't support sequential operation 
+
+Set - declaration set_name = set() 
+	empty set represented as >>> set()
+	BIF - set1.union(set2)/difference()/intersection()
+	It has the same property as sets in maths 
+
+Tuple - tuple_name = tuple() or tuple_name = ()
+	empty tuple >>> ()
+	operation - slicing-[]/ 
+	It's properties are same as list with a difference that it is immtable data type
+	so compare to list it is faster.  
+ 
+PEP - Python Enhasment Protocol
+	

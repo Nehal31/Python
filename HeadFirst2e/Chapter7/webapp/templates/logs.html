@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h2>{{ header }}</h2>
+<table name="log_table" style="bolder:solid 1px">
+	<tr>
+		{% for row_title in row_titles %}
+			<th>{{row_title}}</th>
+		{% endfor%}
+	</tr>
+	{%for row_item in row_items %}
+	<tr>
+		{% for item in row_item %}
+			<td>{{ item }}</td>
+		{% endfor %}
+	</tr>
+	{% endfor %}
+</table>
+
+{% endblock %}
